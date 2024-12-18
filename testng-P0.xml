@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/saanv/IdeaProjects/APIAutomationFramework">
+        <groups>
+            <run>
+                <include name="P0"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.apiautomation.com.tests.integration.crud.TestIntegrationFlow">
+                <methods>
+                    <include name="testCreateBooking"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
